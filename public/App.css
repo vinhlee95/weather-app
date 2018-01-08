@@ -1,0 +1,31 @@
+body {
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.input-group {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 30px;
+  margin: 20px 30px;
+}
+.table {
+  width: 90%;
+  margin: 0 0 0 30px;
+}
+.table thead tr th {
+  text-align: center;
+}
+.city-data {
+  width: 100%;
+}
+.city-data td svg {
+  height: 250px;
+}
+.map {
+  width: 250px;
+  height: 250px;
+}
